@@ -5,6 +5,7 @@
 <img src='./Images/images.png' alt='logo' width='300'/>
 </p>
 
+
 SMTP User Recon is a Python tool that allows you to verify the existence of users on an SMTP server. It uses the SMTP VRFY protocol to check if a specific user is registered on the specified SMTP server.
 
 ## Features
@@ -35,3 +36,9 @@ Contributions are welcome! If you have any ideas to improve this tool or have fo
 
 This script was inspired by the SMTP module of Footprinting on HackTheBox, which highlights techniques for enumerating users on an SMTP server.
 
+## Disclaimers
+
+> THIS TOOL IS INTENDED FOR EDUCATIONAL PURPOSES ONLY AND SHOULD NOT BE USED FOR ANY ILLEGAL ACTIVITIES.
+USE THIS TOOL ONLY IN ENVIRONMENTS WHERE YOU HAVE EXPLICIT PERMISSION FROM THE OWNER TO PERFORM PENETRATION TESTING.
+
+{1n_mY_m4Ch1n3_W0rK5}
