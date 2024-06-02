@@ -20,7 +20,7 @@ SMTP User Recon is a Python tool that allows you to verify the existence of user
 ```python
 pip install colorama
 ```
-3. Configure the details of the SMTP server and create a `users.txt` file with the list of users to verify.
+3. Configure the details of the SMTP server such as IP, PORT and USERS LIST, and use or create a `users.txt` file with the list of users to verify.
 4. Run the `smtp_user_recon.py` script:
 ```python
 python3 smtp_users_recon.py
@@ -30,4 +30,8 @@ python3 smtp_users_recon.py
 ## Contributions
 
 Contributions are welcome! If you have any ideas to improve this tool or have found any bugs, feel free to open an issue or send a pull request.
+
+## Inspiration
+
+This script was inspired by the SMTP module of Footprinting on HackTheBox, which highlights techniques for enumerating users on an SMTP server.
 
