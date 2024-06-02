@@ -31,6 +31,3 @@ python3 smtp_users_recon.py
 
 Contributions are welcome! If you have any ideas to improve this tool or have found any bugs, feel free to open an issue or send a pull request.
 
-## License
-
-This project is licensed under the MIT License.

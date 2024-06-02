@@ -52,7 +52,7 @@ banner = """
 ╚════██║██║╚██╔╝██║   ██║   ██╔═══╝     ██║   ██║╚════██║██╔══╝  ██╔══██╗    ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╔╝██║
 ███████║██║ ╚═╝ ██║   ██║   ██║         ╚██████╔╝███████║███████╗██║  ██║    ███████╗██║ ╚████║╚██████╔╝██║ ╚═╝ ██║
 ╚══════╝╚═╝     ╚═╝   ╚═╝   ╚═╝          ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝
-                                                            
+                                                                                                          by p314d0                                          
 """
 
 print(banner)
@@ -67,7 +67,7 @@ smtp_ip = "10.129.189.241"  # Reemplaza con la IP de tu servidor SMTP
 smtp_port = 25             # Reemplaza con el puerto de tu servidor SMTP
 
 # Leer la lista de usuarios desde el archivo usuarios.txt
-user_list = read_user_list('users.txt')
+user_list = read_user_list('users.txt') # Reemplaza con tu lista de usuarios
 
 # Llamada a la función principal para verificar los usuarios
 check_smtp_users(smtp_ip, smtp_port, user_list)
